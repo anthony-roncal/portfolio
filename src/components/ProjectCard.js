@@ -6,7 +6,7 @@ import { mdiOpenInNew } from '@mdi/js';
 const ProjectCard = ({ name, github, link, description, image }) => {
     return (
         <div className='project-card'>
-            <img src={`/images/${image}_screenshot.png`} alt={`screenshot of ${image} app`} className='project-img' />
+            <img src={`./images/${image}_screenshot.png`} alt={`screenshot of ${image} app`} className='project-img' />
             <div className='project-header'>
                 <h3>{name}</h3>
                 <div className='project-links'>
