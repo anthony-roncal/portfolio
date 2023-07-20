@@ -12,9 +12,10 @@ const About = () => {
             <div>
                 <h2>About</h2>
                 <p>
-                    Quality engineer turned front-end developer with a strong drive to learn and grow.
-                    Proficient in HTML, CSS, and JavaScript, I'm excited to create engaging and user-friendly web interfaces.
-                    Committed to continuous improvement, I embrace challenges and strive to deliver high-quality solutions that exceed expectations.
+                    Dedicated Quality Engineer with a strong foundation in software testing, now leveraging Technical expertise and problem-solving skills 
+                    to pursue a career as a Front-End Developer. Adept at collaborating with cross-functional Agile teams to deliver high-quality solutions, 
+                    now applying proficiency in HTML, CSS, and JavaScript to craft engaging and user-friendly web experiences. Eager to contribute 
+                    innovative solutions and meticulous attention to detail in the field of front-end development.
                 </p>
                 <IconLinks />
             </div>
