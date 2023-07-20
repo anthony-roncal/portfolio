@@ -1,0 +1,68 @@
+.project-card {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.1);
+    width: 640px;
+    min-height: 500px;
+    background-color: #252525;
+}
+
+.project-img,
+.project-header,
+.project-description {
+    margin: 20px;
+}
+
+.project-img {
+    width: 600px;
+    height: 300px;
+    object-fit: cover;
+    align-self: center;
+}
+
+.project-header,
+.project-links {
+    display: flex;
+    align-items: center;
+}
+
+.project-header {
+    height: 30px;
+    justify-content: space-between;
+}
+
+.project-links {
+    gap: 10px;
+    align-content: center;
+}
+
+.project-link {
+    text-decoration: none;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.project-link:visited {
+    color: #FFF;
+}
+
+@media (max-width: 1000px) {
+    .project-card {
+        width: 100%;
+        max-width: 640px;
+        min-height: 450px;
+    }
+
+    .project-img,
+    .project-header,
+    .project-description {
+        margin: 10px;
+    }
+
+    .project-img {
+        width: 90%;
+    }
+}

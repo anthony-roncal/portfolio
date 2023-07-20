@@ -1,0 +1,34 @@
+.about-container {
+    display: flex;
+    padding: 50px 250px;
+    gap: 30px;
+}
+
+.about-container > div {
+    min-width: 50%;
+}
+
+.name {
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+.title {
+    font-size: 30px;
+    margin-top: 0;
+}
+
+@media (max-width: 1000px) {
+    .about-container {
+        display: block;
+        padding: 30px;
+    }
+
+    .about-container > div {
+        padding: 0;
+    }
+
+    .name {
+        font-size: 40px;
+    }
+}

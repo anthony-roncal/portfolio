@@ -1,0 +1,19 @@
+.icon-links {
+    justify-self: flex-end;
+    align-self: flex-end;
+    display: flex;
+    gap: 20px;
+}
+
+.icon-links > a {
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.icon-links > a:visited {
+    color: #FFF;
+}
+
+.icon-link {
+    width: 30px;
+}

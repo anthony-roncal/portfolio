@@ -1,0 +1,12 @@
+.contact-container {
+    background-color: #303030;
+    padding: 40px;
+}
+
+.contact-header {
+    margin: 0;
+}
+
+.contact-container > div {
+    margin-bottom: 20px;
+}
