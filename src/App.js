@@ -6,31 +6,38 @@ import Contact from './components/Contact';
 function App() {
     const lightCloneData = {
         name: 'light.gg Clone',
-        github: 'https://github.com/anthony-roncal/odin-destiny',
-        link: 'https://anthony-roncal.github.io/odin-destiny/',
+        github: 'https://github.com/anthony-roncal/lightgg-clone',
+        link: 'https://anthony-roncal.github.io/lightgg-clone/',
         description: 'This is a partial clone of light.gg, which is a informational tool for the game Destiny 2.',
         image: 'destiny'
     };
     const pokemonData = {
         name: "Where's that Pokémon?",
-        github: 'https://github.com/anthony-roncal/odin-photo-tagging-app',
+        github: 'https://github.com/anthony-roncal/photo-tagging-app',
         link: 'https://phototaggingapp-ffbdf.web.app/',
-        description: "This is a photo-tagging game, similar to 'Where is Waldo?'",
+        description: "A Pokémon-themed photo tagging game, similar to “Where's Waldo?”. The objective is to find specific Pokémon in an image as quickly as possible. Users can save and view their scores on a leaderboard.",
         image: 'pokemon'
-    };
-    const shoppingData = {
-        name: "Shopping Page",
-        github: 'https://github.com/anthony-roncal/odin-shopping-cart',
-        link: 'https://anthony-roncal.github.io/odin-shopping-cart',
-        description: "This is the front-end portion of a shopping page and cart.",
-        image: 'shopping'
     };
     const battleshipData = {
         name: "Battleship",
-        github: 'https://github.com/anthony-roncal/odin-shopping-cart',
-        link: 'https://anthony-roncal.github.io/odin-battleship',
-        description: "This is a single player browser version of the game Battleship.",
+        github: 'https://github.com/anthony-roncal/battleship',
+        link: 'https://anthony-roncal.github.io/battleship',
+        description: "A web version of the classic game “Battleship”. The logic for this application was built using Test Driven Development.",
         image: 'battleship'
+    };
+    const weatherData = {
+        name: "Weather App",
+        github: 'https://github.com/anthony-roncal/weather-app',
+        link: 'https://anthony-roncal.github.io/weather-app/',
+        description: "A weather app that connects to the OpenWeatherMap and Giphy APIs. Users can search for a city to receive weather information along with a related gif.",
+        image: 'weather'
+    };
+    const shoppingData = {
+        name: "Shopping Page",
+        github: 'https://github.com/anthony-roncal/shopping-cart',
+        link: 'https://anthony-roncal.github.io/shopping-cart',
+        description: "An interactive shopping page enabling users to add items to their cart in different quantities and view real-time updates of the cart subtotal and the total number of items selected.",
+        image: 'shopping'
     };
     return (
         <div className="App">
@@ -52,18 +59,25 @@ function App() {
                     image={pokemonData.image}
                 />
                 <ProjectCard
-                    name={shoppingData.name}
-                    github={shoppingData.github}
-                    link={shoppingData.link}
-                    description={shoppingData.description}
-                    image={shoppingData.image}
-                />
-                <ProjectCard
                     name={battleshipData.name}
                     github={battleshipData.github}
                     link={battleshipData.link}
                     description={battleshipData.description}
                     image={battleshipData.image}
+                />
+                <ProjectCard
+                    name={weatherData.name}
+                    github={weatherData.github}
+                    link={weatherData.link}
+                    description={weatherData.description}
+                    image={weatherData.image}
+                />
+                <ProjectCard
+                    name={shoppingData.name}
+                    github={shoppingData.github}
+                    link={shoppingData.link}
+                    description={shoppingData.description}
+                    image={shoppingData.image}
                 />
             </div>
             <Contact />
