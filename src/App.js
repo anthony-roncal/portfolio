@@ -8,7 +8,7 @@ function App() {
         name: 'light.gg Clone',
         github: 'https://github.com/anthony-roncal/lightgg-clone',
         link: 'https://anthony-roncal.github.io/lightgg-clone/',
-        description: 'This is a partial clone of light.gg, which is a informational tool for the game Destiny 2.',
+        description: 'This is a partial clone of light.gg, which is an informational tool for the game Destiny 2.',
         image: 'destiny'
     };
     const pokemonData = {
