@@ -12,7 +12,7 @@ const About = () => {
             <div>
                 <h2>About</h2>
                 <p>
-                    Dedicated Quality Engineer with a strong foundation in software testing, now leveraging Technical expertise and problem-solving skills 
+                    Dedicated Quality Engineer with a strong foundation in software testing, now leveraging technical expertise and problem-solving skills 
                     to pursue a career as a Front-end Developer. Adept at collaborating with cross-functional Agile teams to deliver high-quality solutions, 
                     now applying proficiency in HTML, CSS, and JavaScript to craft engaging and user-friendly web experiences. Eager to contribute 
                     innovative solutions and meticulous attention to detail in the field of front-end development. 
