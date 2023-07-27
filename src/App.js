@@ -42,7 +42,7 @@ function App() {
     return (
         <div className="App">
             <About />
-            <h2>Projects</h2>
+            <h2 className='projects-header'>Projects</h2>
             <div className='projects-container'>
                 <ProjectCard
                     name={lightCloneData.name}
